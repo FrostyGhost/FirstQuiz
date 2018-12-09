@@ -18,7 +18,6 @@ import com.fg.frostyghost.firstquizpj.MainActivity;
 public class ShopActivity extends Activity {
 
     ConstraintLayout shop_lyt;
-    ImageView btn_mask, btn_mask2;
     TextView time1, time2;
 
 
@@ -41,14 +40,11 @@ public class ShopActivity extends Activity {
         //получаэмо контейнер
         shop_lyt = findViewById(R.id.shop_layout);
         //затемняючий фон
-        btn_mask =findViewById(R.id.imageMaskB);
-        btn_mask2 =findViewById(R.id.imageMaskB2);
         //textview для таймера
         time1 =findViewById(R.id.timer);
         time2 =findViewById(R.id.timer2);
 
 
-        shop_lyt.removeView(btn_mask);
         //shop_lyt.removeView(btn_mask2);
         shop_lyt.removeView(time1);
         //shop_lyt.removeView(time2);

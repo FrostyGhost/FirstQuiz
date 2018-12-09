@@ -24,30 +24,10 @@
         android:layout_height="179dp"
         android:layout_marginEnd="20dp"
         android:layout_marginTop="8dp"
-        android:src="@drawable/ic_ser"
+        android:src="@drawable/ic_btn_quiz"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <ImageView
-        android:id="@+id/imageMaskB"
-        android:layout_width="165dp"
-        android:layout_height="173dp"
-        android:layout_marginEnd="8dp"
-        android:alpha="0.5"
-        android:src="@color/B"
-        app:layout_constraintBottom_toTopOf="@+id/guideline2"
-        app:layout_constraintEnd_toStartOf="@+id/guideline" />
-
-    <ImageView
-        android:id="@+id/imageMaskB2"
-        android:layout_width="165dp"
-        android:layout_height="173dp"
-        android:layout_marginEnd="6dp"
-        android:layout_marginBottom="1dp"
-        android:alpha="0.5"
-        android:src="@color/B"
-        app:layout_constraintBottom_toTopOf="@+id/guideline2"
-        app:layout_constraintEnd_toEndOf="parent" />
 
     <TextView
         android:id="@+id/timer"
@@ -55,7 +35,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="24dp"
-        android:text="TextView"
+        android:text="Films"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -65,7 +45,7 @@
         android:layout_height="15dp"
         android:layout_marginEnd="124dp"
         android:layout_marginTop="28dp"
-        android:text="TextView"
+        android:text="Serials"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
