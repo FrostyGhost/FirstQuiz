@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4dd0e1</color>
+    <color name="colorPrimaryDark">#80d8ff</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="color100Cyan">#bbdefb</color>
+    <color name="color700Cyan">#00b8d4</color>
+    <color name="color50Cyan">#ddeefd</color>
+    <color name="colorbuttons">#3e4445</color>
+    <color name="color400Cyan">#00e5ff</color>
+    <color name="color200Cyan">#18ffff</color>
+    <color name="color300Cyan">#4dd0e1</color>
+    <color name="B">#060606</color>
+
+</resources>
